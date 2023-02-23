@@ -1,0 +1,167 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF0E0;
+    border: 1px solid #FFF0E0;
+    border-radius: 10px;
+    margin-top: 4rem;
+
+
+    .contactsection {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 80%;
+        margin: auto;
+        margin-top: 3rem;
+
+        .head {
+            margin-bottom: 20px;
+            font-size: 30px;
+            color: #FF8000;
+        }
+
+        .title {
+            font-size: 20px;
+        }
+
+        .name {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .input {
+                display: flex;
+                flex-direction: column;
+                width: 48%;
+
+                .half {
+
+                    height: 45px;
+                    border-radius: 8px;
+                    border: 2px solid #DADADA;
+                    margin-bottom: 10px;
+                    outline: none;
+                    padding: 5px;
+                    font-weight: bold;
+                }
+            }
+
+
+        }
+
+        .full {
+            width: 100%;
+            height: 45px;
+            border-radius: 8px;
+            border: 2px solid #DADADA;
+            margin-bottom: 10px;
+            outline: none;
+            padding: 5px;
+            font-weight: 700;
+        }
+
+        .textarea {
+            height: 20vh;
+            border-radius: 8px;
+            border: 2px solid #DADADA;
+            margin-bottom: 10px;
+            outline: none;
+            padding: 5px;
+            font-weight: 700;
+        }
+
+    }
+
+    .confirmbtn {
+        background: #FF8000;
+        border: 1px solid #FF8000;
+        border-radius: 4px;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 1rem;
+        font-weight: 600;
+        letter-spacing: 0.03rem;
+        color: #ffff;
+        width: 20%;
+        outline: none;
+        height: 35px;
+        cursor: pointer;
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (width<=1250px) {
+    .contacts {
+        width: 60%;
+    }
+}
+
+@media screen and (width<=1080px) {
+    .contacts {
+        width: 65%;
+    }
+}
+@media screen and (width<=940px) {
+    .contacts {
+        width: 70%;
+    }
+    
+}
+
+@media screen and (width<=880px) {
+    .contacts {
+        width: 75%;
+    }
+    
+}
+
+@media screen and (width<=720px) {
+    .contacts {
+        width: 80%;
+    }
+    
+}
+
+@media screen and (width<=590px) {
+    .contacts {
+        width: 80%;
+        margin-top: 2rem;
+        .contactsection {
+           
+            .head {
+                font-size: 18px;
+            }
+            .title{
+                font-size: 16px;
+            }
+
+    
+        }
+    
+        .confirmbtn {
+            width: 40%;
+            height: 40px;
+
+        }
+    }
+    
+}
+@media screen and (width<=480px) {
+    .contacts {
+        width: 85%;
+    }
+    
+}
+@media screen and (width<=370px) {
+    .contacts {
+        width: 97%;
+    }
+    
+}
+ 
